@@ -1,0 +1,29 @@
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 105vh;
+    gap: 20px;
+    background-color: #520101;
+}
+
+button {
+    background-color: rgb(207, 32, 32);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-family: sans-serif;
+    padding: 12px; 
+    transition: all 0.4s ease;
+    border: none;
+    width: 100%; 
+    max-width: 300px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgba(255, 0, 0, 0.699);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}

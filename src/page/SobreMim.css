@@ -1,0 +1,13 @@
+.SobreMim-Container {
+    max-width: 90%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 105vh;
+    gap: 20px;
+    background-color: #520101;
+}
